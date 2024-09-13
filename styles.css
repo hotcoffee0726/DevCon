@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc; /* Light beige background */
+    color: #333;
+}
+
+header {
+    background-color: #d2691e; /* Chocolate color */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/bamboo.png'); /* Optional texture */
+    background-size: cover;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: #fff;
+    border: 2px solid #d2691e; /* Chocolate color border */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-content h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #d2691e;
+}
+
+.item-content p {
+    margin: 5px 0;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #d2691e;
+}
+
+.add-to-cart {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.cart {
+    margin-top: 40px;
+}
+
+.cart h2 {
+    font-size: 2em;
+    color: #d2691e;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart ul li .remove-item {
+    color: red;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #d2691e; /* Chocolate color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
